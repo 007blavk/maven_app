@@ -4,6 +4,7 @@ def buildApp() {
 
 def testApp() {
     echo 'testing the application...'
+    echo 'testing the application again again againnnnn...'    
 } 
 
 def deployApp() {
