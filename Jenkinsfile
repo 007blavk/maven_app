@@ -17,9 +17,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                script {
-                    gv.buildJar()
-                }
+               echo 'building the app'
             }
         }
         stage('test') {
